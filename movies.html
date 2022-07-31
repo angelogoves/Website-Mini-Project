@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="movies.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ACG Movie</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-container">
+                <img class="acg-picture" src="img/ACG.png" alt="">
+                <div class="logo-container">                
+                    <h1 class="logo">ACG</h1>
+                </div>
+                <div class="menu-container">
+                    <ul class="menu-list">
+                        <li class="menu-list-item active">Home</li>
+                        <li class="menu-list-item">Movies</li>
+                        <li class="menu-list-item">Upcoming</li>
+                    </ul>
+                </div>       
+                <form action="" class="search-bar-container">
+                    <input type="search" id="search-bar" placeholder="search here...">
+                    <label for="search-bar" class="fas fa-search"></label>
+                </form>
+                <div class="profile-container">
+                    <div class="toggle">
+                        <i class="fas fa-moon toggle-icon"></i>
+                        <i class="fas fa-sun toggle-icon"></i>
+                        <div class="toggle-ball"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Stream full-length movies</h3>
+            <p>"Funny how annoying a little prick can be, isn't it?"</p>
+        </div>    
+        <div class="video-container">
+            <video src="img/b1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>    
+    </section>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+            </div>
+            <div class="movie-list-container"><br><br>
+                <section class="movies" id="movies">
+                <h1 class="movie-list-title">Movies</h1><br>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Doctor Strange in the Multiverse of Madness</span>
+                            <p class="movie-list-item-desc">2022 ‧ Action/Adventure<br>2h 6m</p>
+                            <button class="movie-list-item-button"><a href="https://youtu.be/aWzlQ2N6qqg">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Spider-Man: No Way Home</span>
+                            <p class="movie-list-item-desc">2021 ‧ Action/Adventure<br>2h 28m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=JfVOs4VSpmA&ab_channel=SonyPicturesEntertainment">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">Uncharted</span>
+                            <p class="movie-list-item-desc">2022 ‧ Action/Adventure<br>1h 56m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=eHp3MbsCbMg&ab_channel=SonyPicturesEntertainment">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Morbius</span>
+                            <p class="movie-list-item-desc">2022 ‧ Action/Fantasy<br>1h 44m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=oZ6iiRrz1SY&ab_channel=SonyPicturesEntertainment">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Shang-Chi and The Legend of The Ten Rings</span>
+                            <p class="movie-list-item-desc">2021 ‧ Action/Fantasy<br>2h 12m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=giWIr7U1deA&ab_channel=MarvelEntertainment">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">The Batman</span>
+                            <p class="movie-list-item-desc">2022 ‧ Action/Adventure<br>2h 56m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=mqqft2x_Aa4&ab_channel=WarnerBros.Pictures">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">2019 ‧ Drama/Crime<br>2h 2m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=WwkZqhpE0E4&ab_channel=DC">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers: Endgame</span>
+                            <p class="movie-list-item-desc">2019 ‧ Action/Sci-fi ‧ 3h 2m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=hA6hldpSTF8&ab_channel=MarvelEntertainment">Trailer</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpg" alt="">
+                            <span class="movie-list-item-title">K.G.F: Chapter 2</span>
+                            <p class="movie-list-item-desc">2022 ‧ Action/Romance<br>2h 48m</p>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=Qah9sSIXJqk&ab_channel=HombaleFilms">Trailer</a></button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+                </section>
+            </div>
+            <div class="movie-list-container"><br><br>
+                <section class="upcoming" id="upcoming">
+                <h1 class="movie-list-title">Upcoming</h1><br>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Thor: Love and Thunder</span>
+                            <p class="movie-list-item-desc">2022 ‧ Action/Adventure<br>2 hours</p>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">DC League of Super-Pets</span>
+                            <p class="movie-list-item-desc">2022 ‧ Adventure/Action<br>1h 40m</p>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Black Adam</span>
+                            <p class="movie-list-item-desc">2022 ‧ Action/Fantasy</p>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.jpg" alt="">
+                            <span class="movie-list-item-title">Avatar: The Way of Water</span>
+                            <p class="movie-list-item-desc">2022 ‧ Sci-fi/Action</p>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">The Flash</span>
+                            <p class="movie-list-item-desc">2023 ‧ Action/Fantasy</p>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/16.jpg" alt="">
+                            <span class="movie-list-item-title">Aquaman and the Lost Kingdom</span>
+                            <p class="movie-list-item-desc">2023 ‧ Action/Fantasy</p>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Guardians of the Galaxy Vol. 3</span>
+                            <p class="movie-list-item-desc">2023 ‧ Sci-fi/Adventure</p>>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
+                            <span class="movie-list-item-title">Spider-Man: Across the Spider-Verse</span>
+                            <p class="movie-list-item-desc">2023 ‧ Action/Adventure<br>1h 55m</p>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
+                            <span class="movie-list-item-title">Fast X</span>
+                            <p class="movie-list-item-desc">2023 ‧ Action/Adventure</p>>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="movies.js"></script>
+</body>
+</html>
